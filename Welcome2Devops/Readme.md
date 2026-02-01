@@ -1,11 +1,11 @@
 # Welcome2DevOps
 
 **Purpose:**  
-A starter project to practice DevOps concepts like CI/CD, automation, and workflows using GitHub Actions.  
+A starter project to experiment with DevOps workflows using **Python** and GitHub Actions.  
 
-**Key Features:**  
-- Runs a CI workflow on push or pull request  
-- Installs dependencies and runs basic tests  
-- Placeholder build step to experiment with automation  
+**Features:**  
+- Minimal CI/CD workflow using GitHub Actions  
+- Run deployment and monitoring scripts automatically  
+- Designed for learning and experimentation, not production
 
-> Note: This is a **starter scaffold**, not a functional application. It serves as the entry point for other DevOps practice projects.
+

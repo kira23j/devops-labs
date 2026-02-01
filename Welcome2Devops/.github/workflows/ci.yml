@@ -1,0 +1,21 @@
+name: Welcome2DevOps CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Run deploy script
+      run: python3 deploy.py
+
+    - name: Run monitor script
+      run: python3 monitor.py
