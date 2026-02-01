@@ -1,0 +1,11 @@
+{
+  "name": "welcome2devops",
+  "version": "1.0.0",
+  "description": "Starter project for practicing DevOps workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests defined\""
+  },
+  "author": "",
+  "license": "MIT"
+}
